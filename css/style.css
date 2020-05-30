@@ -53,7 +53,7 @@ a:hover {
 .box-shadow,
 .paralax-mf,
 .service-box,
-.work-box,
+.gallery-box,
 .card-blog {
   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
 }
@@ -667,6 +667,31 @@ a:hover {
   color: #fff;
 }
 
+#promo-notifications{
+	background: rgb(247, 217, 226);
+	font-size: 18px;
+  width: 100%;
+  font-family: 'Helvetica-Neue', Helvetica, Arial, sans-serif;
+}
+
+#promo-notifications ul{
+	width: 100%;
+	height: 35px;
+	position: relative;
+	overflow: hidden;
+}
+
+#promo-notifications li{
+	width: 980px;
+	line-height: 35px;
+  height: 35px;
+	position: absolute;
+	top: 0;
+	left: 100%;
+	text-align: center;
+	list-style: none;
+}
+
 /*======================================
 //--//-->   ABOUT
 ======================================*/
@@ -768,51 +793,51 @@ a:hover {
 //--//-->   PORTFOLIO
 ======================================*/
 
-.work-box {
+.gallery-box {
   margin-bottom: 3rem;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
 }
 
-.work-box:hover img {
+.gallery-box:hover img {
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
 }
 
-.work-img {
+.gallery-img {
   display: block;
   overflow: hidden;
 }
 
-.work-img img {
+.gallery-img img {
   transition: all 1s;
 }
 
-.work-content {
+.gallery-content {
   padding: 2rem 3% 1rem 4%;
 }
 
-.work-content .w-more {
+.gallery-content .w-more {
   color: #4e4e4e;
   font-size: .8rem;
 }
 
-.work-content .w-more .w-ctegory {
+.gallery-content .w-more .w-ctegory {
   color: #0078ff;
 }
 
-.work-content .w-like {
+.gallery-content .w-like {
   font-size: 2.5rem;
   color: #0078ff;
   float: right;
 }
 
-.work-content .w-like a {
+.gallery-content .w-like a {
   color: #0078ff;
 }
 
-.work-content .w-like .num-like {
+.gallery-content .w-like .num-like {
   font-size: .7rem;
 }
 
